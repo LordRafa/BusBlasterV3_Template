@@ -1,0 +1,45 @@
+#Bus Blaster v3 pin connections
+
+# FT2232H Interface
+NET "FT_AD0_TCK"              LOC =  "P12";
+NET "FT_AD1_TDI"              LOC =  "P13";
+NET "FT_AD2_TDO"              LOC =  "P14";
+NET "FT_AD3_TMS"              LOC =  "P16";
+
+NET "FT_AD4_GPIOL0"           LOC =  "P39";
+NET "FT_AD5_GPIOL1"           LOC =  "P40";
+NET "FT_AD6_GPIOL2"           LOC =  "P41";
+NET "FT_AD7_GPIOL3"           LOC =  "P42";
+
+NET "FT_AC0_GPIOH0"           LOC =  "P43";
+NET "FT_AC1_GPIOH1"           LOC =  "P44";
+NET "FT_AC2_GPIOH2"           LOC =  "P2";
+NET "FT_AC3_GPIOH3"           LOC =  "P3";
+
+NET "FT_AC4_GPIOH4"           LOC =  "P5";
+NET "FT_AC5_GPIOH5"           LOC =  "P1";
+NET "FT_AC6_GPIOH6"           LOC =  "P6";
+NET "FT_AC7_GPIOH7"           LOC =  "P8";
+
+# JTAG Header
+NET "TDO"                 LOC =  "P32";
+NET "TCK"                 LOC =  "P34";
+NET "TDI"                 LOC =  "P37";
+NET "TMS"                 LOC =  "P36";
+NET "RTCK"                LOC =  "P33";
+NET "nSRST"               LOC =  "P31";
+NET "nTRST"               LOC =  "P38";
+NET "DBGRQ"               LOC =  "P30";
+NET "DBGACK"              LOC =  "P29";
+
+# JP2 Header
+NET "JP2_P19_LED"         LOC =  "P19";
+NET "JP2_P20"             LOC =  "P20";
+NET "JP2_P21"             LOC =  "P21";
+NET "JP2_P22"             LOC =  "P22";
+NET "JP2_P23"             LOC =  "P23";
+NET "JP2_P27"             LOC =  "P27";
+NET "JP2_P28"             LOC =  "P28";
+
+# Others
+NET "BUTTON"               LOC =  "P18";
